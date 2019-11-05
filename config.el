@@ -20,5 +20,14 @@
 (setq doom-themes-treemacs-theme "doom-colors") ; use the colorful treemacs theme
 (doom-themes-treemacs-config)
 
+;; Set Font
+(setq doom-font (font-spec :family "Fira Code" :size 12))
+
+;; OS X
+(setq mac-option-key-is-meta nil)
+(setq mac-command-key-is-meta t)
+(setq mac-command-modifier 'meta)
+(setq mac-option-modifier nil)
+
 ;; Corrects (and improves) org-mode's native fontification.
 (doom-themes-org-config)
