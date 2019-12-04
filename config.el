@@ -29,5 +29,8 @@
 (setq mac-command-modifier 'meta)
 (setq mac-option-modifier nil)
 
+;; enable company-quickhelp
+(company-quickhelp-mode 1)
+
 ;; Corrects (and improves) org-mode's native fontification.
 (doom-themes-org-config)
