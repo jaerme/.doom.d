@@ -6,3 +6,6 @@
 ;; (package! another-package :recipe (:host github :repo "username/repo"))
 ;; (package! builtin-package :disable t)
 (package! company-quickhelp)
+(package! fennel-mode
+  :recipe (:host gitlab :repo "technomancy/fennel-mode"))
+(package! nyan-mode)

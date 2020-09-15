@@ -21,7 +21,7 @@
 (doom-themes-treemacs-config)
 
 ;; Set Font
-(setq doom-font (font-spec :family "Fira Code" :size 12))
+(setq doom-font (font-spec :family "Liberation Mono" :size 12))
 
 ;; OS X
 (setq mac-option-key-is-meta nil)
@@ -34,3 +34,7 @@
 
 ;; Corrects (and improves) org-mode's native fontification.
 (doom-themes-org-config)
+
+;; nyan cat
+(nyan-mode 1)
+(nyan-start-animation)
